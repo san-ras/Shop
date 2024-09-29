@@ -20,6 +20,7 @@ public class Shop {
 
     public void add(Product product) {
         this.products.add(product);
+        System.out.println("Product has been added: " + product.toString());
     }
 
     public void remove(String name) {
